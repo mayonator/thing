@@ -169,7 +169,7 @@ function getRankRoles(msg, callback) {
 client.on('ready', () => {
     log(`Bot online as ${client.user.tag}`);
 
-    massGuildDM();
+    //massGuildDM();
 
     client.guilds.cache.forEach((guild) => {
         guild.members.cache.forEach(() => {
